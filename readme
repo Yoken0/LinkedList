@@ -1,0 +1,25 @@
+Q1 - Using a struct node we created a node that will be the start of our Linked List.
+After creating it we move to our first function which given a n, will create an n Linked List of nodes. And while creating the nodes
+we also assign them values. After finishing that we move to the main function of Q1 which simply adds one node to the start of the List.
+By using very simple Pointer arithemic we set a new start as the node to be inserted at the start of the Linked List. Then after that we simply print the list.
+
+Q2 - By utilizing the very same logic from the first code we create a new function that will add to the end of our LinkedList.
+To achieve that first we have to transverse through the whole list and find our last node that points to NULL.
+After that we set the node after that which would be NULL to our new node, and the node after our new node would become NULL. Then we print the list.
+
+Q3 - using the same logic of the other questions we create our List, then we retrieve from the user the location of the node to be inserted and its value.
+After that we traverse to our index destination and insert the node at the index. By simply adding a new node to it we inserted a new node to the List.
+Then we print the Linked List.
+
+Q4 - In the same manner as the other questions we create our Linked List then we create a new function that deletes the first node.
+In order to achieve that we must reset our start as the next node after start, and we can simply free the node that is being deleted.
+Then after that we print the list.
+
+Q5 - utilizing the same logic we get our LinkedList, but this time we create 3 new functions. 
+One being mergeSort which computes the whole merge sort algoritym, then we create a helper function which split a list in two smaller lists.
+After that we create our last function which recursively put the LinkedList back into one List.
+MergeSort works by recursively separate itself in smaller lists until its only one value, after that we compare the value and rearrange the nodes.
+After the recursion the 3rd function returns us the full list sorted. Then we simply print the sorted List.
+
+
+LinkedList in C
