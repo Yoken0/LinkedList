@@ -1,3 +1,7 @@
+School project that is a linkedList in C
+
+
+
 Q1 - Using a struct node we created a node that will be the start of our Linked List.
 After creating it we move to our first function which given a n, will create an n Linked List of nodes. And while creating the nodes
 we also assign them values. After finishing that we move to the main function of Q1 which simply adds one node to the start of the List.
@@ -21,5 +25,3 @@ After that we create our last function which recursively put the LinkedList back
 MergeSort works by recursively separate itself in smaller lists until its only one value, after that we compare the value and rearrange the nodes.
 After the recursion the 3rd function returns us the full list sorted. Then we simply print the sorted List.
 
-
-LinkedList in C
